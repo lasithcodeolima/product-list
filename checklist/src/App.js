@@ -98,6 +98,7 @@ function App() {
 {/* About us*/}
 <section id="about" className="section">
   <h2>About Us</h2>
+  <center>
   <p>Learn more about our brand and mission.</p>
   <div className="about-details">
     <p>U Fashion is a leading retailer of trendy clothing...</p>
@@ -106,17 +107,18 @@ function App() {
     <p>Phone: +1234567890</p>
   </div>
   <div className="socialmedia">
-    <a href="#" className="social-icon"><i className="fab fa-facebook"></i></a>
-    <a href="#" className="social-icon"><i className="fab fa-twitter"></i></a>
-    <a href="#" className="social-icon"><i className="fab fa-instagram"></i></a>
+    <a href="#" className="socialmedia"><i className='bx bxl-facebook-circle'></i></a>
+    <a href="#" className="socialmedia"><i className='bx bxl-twitter'></i></a>
+    <a href="#" className="socialmedia"><i className='bx bxl-instagram' ></i></a>
    
   </div>
+  </center>
 </section>
-
+<center>
 <footer>
   <p>&copy; 2024 U Fashion. All rights reserved.</p>
 </footer>
-
+</center>
       </div>
     </body>
     </div>
