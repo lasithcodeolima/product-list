@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Signup(){
     return(
@@ -39,7 +40,7 @@ function Signup(){
                             <input type="password" name="reEnterPassword" className="form-input" placeholder="At least 8 characters" required/>
                         </div>
                         <div>
-                        <input type="submit" value="SIGN UP" className="sign-btn"/>
+                        <Link to="/Signin" className="signup-link"><input type="submit" value="SIGN UP" className="sign-btn"/></Link>
                         </div>
                     </form>
                 </div>

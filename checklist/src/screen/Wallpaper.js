@@ -1,28 +1,70 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 
-function Wallpaper(){
+function Wallpaper() {
     return (
-<div className="wallpaperPage">
+        <div>
+            <Navbar />
+            <div className="banner">
+                <img src="abc.png" alt="banner-image" />
 
-    <Navbar/>
+                <div className="image-grid">
 
-    <div className="banner">
-        <img src="abc.png" alt="banner image"/>
-    </div>
+                    <div className="image-grid-medium">
+                        <p>Medium</p>
+                    </div>
+                    <div className="image-grid-xlarge">
+                        <p>xLarge</p>
+                    </div>
+                    <div className="image-grid-large">
+                        <p>Large</p>
+                    </div>
+                    <div className="grid img-small">
+                        <p>Small</p>
+                    </div>
 
-    <div className="images">
-        <img src="img1.png" atl="img1"/>
-        <img src="img1.png" atl="img1"/>
-        <img src="img1.png" atl="img1"/>
-        <img src="img1.png" atl="img1"/>
-    </div>
+                    <div className="image-grid-xlarge">
+                        <p>xLarge</p>
+                    </div>
+                    <div className="image-grid-medium">
+                        <p>Medium</p>
+                    </div>
+                    <div className="image-grid-small">
+                        <p>Small</p>
+                    </div>
+                    <div className="image-grid-xlarge">
+                        <p>xLarge</p>
+                    </div>
 
-    <div className="more-button">
-        <input type="button" value={"more"}/>
-    </div>
+                    <div className="image-grid-small">
+                        <p>Small</p>
+                    </div>
+                    <div className="image-grid-xlarge">
+                        <p>xLarge</p>
+                    </div>
+                    <div className="image-grid-small">
+                        <p>Small</p>
+                    </div>
+                    <div className="image-grid-xlarge">
+                        <p>xLarge</p>
+                    </div>
 
-</div>
+
+                    <div className="image-grid-large">
+                        <p>Large</p>
+                    </div>
+                    <div className="image-grid-medium">
+                        <p>Medium</p>
+                    </div>
+                    <div className="image-grid-xlarge">
+                        <p>xLarge</p>
+                    </div>
+                    <div className="image-grid-large">
+                        <p>Large</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     )
 }
 
